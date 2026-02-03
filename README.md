@@ -1,7 +1,7 @@
-# Setting Up SSH and Mounting Directories from Host to VM
+# Setting Up SSH and Mounting Directories from Host to Virtual Machine
 
 ## Overview
-This document describes how to mount directories from the host computer (Observing Mac) into the VM using sshfs, allowing the VM to access files on the host without copying them into the limited VM disk space.
+This document describes how to mount directories from the host computer (Observing Mac) into the virtual machine (VM) using sshfs, allowing the VM to access files on the host without copying them into the limited VM disk space.
 
 ## Steps Completed
 
