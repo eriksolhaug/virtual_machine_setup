@@ -84,6 +84,7 @@ You'll be prompted for Observing Mac's password again. The mount point directory
 - **"Connection reset by user"**: SSH connection failed. Verify SSH is enabled on Observing Mac and the correct IP address is being used.
 - **"Name or service not known"**: Hostname couldn't be resolved. Use IP address instead of hostname (astroobs.local didn't work, so use the IP).
 - **Permission denied**: Check that you're using the correct username (`-u observer`).
+- **Files created on VM don't appear in the mounted directory**: When creating files on the VM, you must use the full path to the mounted directory. For example, instead of `echo "test" > test.txt`, use `echo "test" > /home/obsuser/mydata/test.txt`. You can verify the mount is working correctly by running `ls /home/obsuser/mydata` and checking that the files match those on the Observing Mac's `/Users/observer/DATA` directory.
 
 ## Sample Screenshots of Virtual Machine Connection
 
