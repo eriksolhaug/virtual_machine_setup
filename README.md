@@ -3,7 +3,9 @@
 ## Overview
 This document describes how to mount directories from the host computer (Observing Mac) into the virtual machine (VM) using sshfs, allowing the VM to access files on the host without copying them into the limited VM disk space.
 
-## Steps Completed
+## Connection Guide (Steps Completed)
+
+**Note:** If you have previously established a successful SSH connection between the Observing Mac and the VM, you can skip directly to **Step 7** to remount the directory.
 
 ### 1. Enable SSH on Observing Mac
 SSH needs to be enabled on Observing Mac to allow the VM to connect to it.
