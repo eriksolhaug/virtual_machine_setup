@@ -43,3 +43,6 @@ cd REDUCED/2026_01_30
 
 This ran successfully. No issues.
 
+```bash
+/home/obsuser/FSRED/bin/fsred.csh -d . -p ../../raw/2026_01_30/ -s 0048.list -t 0048.list -cbw -xy
+```
