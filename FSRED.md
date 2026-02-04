@@ -10,7 +10,7 @@ You can rename the scripts if you want -- but DO NOT edit anything inside the `/
 
 See here for a sample .csh file:
 
-![sample_csh_file](sample_csh_file.png)
+![sample_csh_file](sample_csh_file.jpg)
 
 ## Step 2
 
@@ -25,7 +25,7 @@ The script that you just configured is calling several executables in the `/home
 Now run the pipeline by executing your configured script. For example:
 
 ```tcsh
-/home/obsuser/mydata/fs_ut260130_31.csh -p /home/obsuser/mydata/fs_ut260301_03_DATA/raw/
+/home/obsuser/mydata/fs_ut260130_31.csh -p /home/obsuser/mydata/fs_ut260130_31_DATA/raw/
 ```
 
 This is what it should look like when the pipeline has started running:
