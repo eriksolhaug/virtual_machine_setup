@@ -31,3 +31,15 @@ Now run the pipeline by executing your configured script. For example:
 This is what it should look like when the pipeline has started running:
 
 ![pipeline_running](pipeline_running.png)
+
+## Testing
+
+```bash
+cd /home/obsuser/mydata/fs_ut260130_31_DATA/
+mkdir -p /home/obsuser/mydata/fs_ut260130_31_DATA/REDUCED/2026_01_30/
+cd REDUCED/2026_01_30
+/home/obsuser/FSRED/bin/fsgroup.csh -p ../../raw/2026_01_30/
+```
+
+This ran successfully. No issues.
+
